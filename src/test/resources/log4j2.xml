@@ -1,6 +1,6 @@
 <Configuration status="INFO">
     <Appenders>
-        <File name="FileAppender" type="File" fileName="logs/application.log">
+        <File name="FileAppender" fileName="logs/application.log">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1.} [%t] %m%n"/>
         </File>
     </Appenders>
